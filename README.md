@@ -21,13 +21,13 @@ AcePredict is a machine learning project designed to predict tennis match outcom
 
 ### Prerequisites
 
-Make sure you have Python installed. Then, install the required packages:
+- Make sure you have Python installed. Then, install the required packages:
 
 
-pip install pandas numpy seaborn matplotlib scikit-learn xgboost
+- pip install pandas numpy seaborn matplotlib scikit-learn xgboost
 
 
-##3Running the Project
+### Running the Project
 Clone the Repository:
 
 
@@ -41,20 +41,20 @@ Run the Main Script:
 python acepredict.py
 
 ### Project Structure
-acepredict.py: Main script for training and evaluating the model.
-data/: Contains the dataset used for training the model.
-models/: Directory where trained models are saved.
-notebooks/: Jupyter notebooks for data exploration and analysis.
-README.md: Project documentation.
+- acepredict.py: Main script for training and evaluating the model.
+- data/: Contains the dataset used for training the model.
+- models/: Directory where trained models are saved.
+- notebooks/: Jupyter notebooks for data exploration and analysis.
+- README.md: Project documentation.
 
 ### Key Features
-Model Accuracy: High accuracy in predicting match outcomes.
-Feature Importance: Identifies key factors that influence match results.
-Visualizations: Plots for feature importance and confusion matrix.
+- Model Accuracy: High accuracy in predicting match outcomes.
+- Feature Importance: Identifies key factors that influence match results.
+- Visualizations: Plots for feature importance and confusion matrix.
 
 ### Future Enhancements
-Consider other machine learning models like Random Forest or Neural Networks.
-Include additional features like weather conditions or player injuries.
+- Consider other machine learning models like Random Forest or Neural Networks.
+- Include additional features like weather conditions or player injuries.
 
 ### License
 This project is licensed under the MIT License.
